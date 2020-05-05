@@ -266,7 +266,7 @@ public class DoorbellActivity extends Activity {
                             mState = ActivityState.DISPLAYING;
 
                             try {
-                                Thread.sleep(7500);
+                                Thread.sleep(5000);
                                 if (mState != ActivityState.DISPLAYING) return;
                                 mState = ActivityState.IDLING;
                                 resetDisplayMsg("Welcome! Press the button to check-in for this event.");
